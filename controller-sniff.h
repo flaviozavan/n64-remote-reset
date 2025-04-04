@@ -1,0 +1,1 @@
+uint8_t wait_for_controller_pattern(uint16_t expected_pattern);
