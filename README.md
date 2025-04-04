@@ -26,6 +26,14 @@ The code is made to work with `avr-gcc`, along with `avr-libc` and `avr-binutils
 
 The `Makefile` is quite short and easily modified to take into account unusual paths.
 
+### Flashing
+
+`make flash`
+
+Flashing can be done using `avrdude`. `make flash` provides some sensible defaults, which can be changed by editing the file if they don't match your setup.
+
+One quirk of working with the Arduino Pro Mini, is that it often doesn't respond to the commands sent by `avrdude`. The easiest workaround is to hold the reset button on the board, run `make flash`, then let go of the button.
+
 ### Development
 
 Development can benefit from the use of [simavr](https://github.com/buserror/simavr) and avr-gdb.
