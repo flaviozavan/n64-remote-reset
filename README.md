@@ -7,7 +7,7 @@ A remote reset solution for the Nintendo 64 using only an Arduino Pro Mini.
 ### Required hardware
 - Arduino Pro Mini 3.3v 8mHz
 
-Make sure it's 3.3v and 8mHz. The 5v version can't be wired directly to the N64, and any clock other than 8mHz will require changes to the cycle accurate code.
+Make sure it's 3.3v and 8mHz. The 5v version can't be wired to the N64 in the same way, and any clock other than 8mHz will require changes to the cycle accurate code.
 
 ### Helpful hardware
 - USB FTDI to 3.3v serial
