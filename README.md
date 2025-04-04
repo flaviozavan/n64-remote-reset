@@ -2,7 +2,7 @@
 
 A remote reset solution for the Nintendo 64 using only an Arduino Pro Mini.
 
-Use this at your own risk, understand that I don't know what I am doing.
+*Use this at your own risk, understand that I don't know what I am doing.*
 
 ### Required hardware
 - Arduino Pro Mini 3.3v 8mHz
@@ -16,7 +16,7 @@ Since the Arduino Pro Mini does not have a USB port, something similar to this i
 
 ### Customizing
 
-The default reset combo is `A+B+Z+R+L`, and the default cool down time between resets is 5 seconds. These can be changed  by editing `defines.h`. Keep in mind that [combos containing `R+L+Start` might have to match the reset bit instead](https://www.qwertymodo.com/hardware-projects/n64/n64-controller).
+The default reset combo is `A+B+Z+R+L`, and the default cool down time between resets is 5 seconds. These can be changed by editing `defines.h`. Keep in mind that [combos containing `R+L+Start` might have to match the reset bit instead](https://www.qwertymodo.com/hardware-projects/n64/n64-controller).
 
 ### Compiling
 
@@ -24,7 +24,7 @@ The default reset combo is `A+B+Z+R+L`, and the default cool down time between r
 
 The code is made to work with `avr-gcc`, along with `avr-libc` and `avr-binutils`.
 
-The `Makefile` is quite short and easily modified to take into account usual paths.
+The `Makefile` is quite short and easily modified to take into account unusual paths.
 
 ### Development
 
