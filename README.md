@@ -1,7 +1,8 @@
-
 # Minimalist Nintendo 64 Remote Reset
 
 A remote reset solution for the Nintendo 64 using only an Arduino Pro Mini.
+
+Use this at your own risk, understand that I don't know what I am doing.
 
 ### Required hardware
 - Arduino Pro Mini 3.3v 8mHz
