@@ -52,7 +52,7 @@ Followed by connecting with gdb:
 |--|--|
 |VCC|Controller Port 1 3.3v|
 |GND|Controller Port 1 Ground|
-|D10|Controller Port 1 Ground|
+|D10|Controller Port 1 Data|
 |D11|Reset Ground|
 
 
